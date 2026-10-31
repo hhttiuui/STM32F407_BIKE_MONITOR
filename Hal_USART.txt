@@ -1,0 +1,114 @@
+Configuration	Hal_USART
+STM32CubeMX 	6.9.2
+Date	07/10/2025
+MCU	STM32F407VGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC3	IN13	ADC3_IN13	PC3
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC14-OSC32_IN	RCC_OSC32_IN	
+9	PC15-OSC32_OUT	RCC_OSC32_OUT	
+18	PC3	ADC3_IN13	
+33	PC4	GPIO_Output	
+34	PC5	GPIO_Input	
+36	PB1	GPIO_EXTI1	cesu
+37	PB2	GPIO_Input	KEY
+38	PE7	GPIO_Input	KEY
+39	PE8	GPIO_Input	KEY
+40	PE9	GPIO_Input	KEY
+41	PE10	GPIO_Input	KEY
+42	PE11	GPIO_Output	LA_BA
+43	PE12	GPIO_Output	LED
+44	PE13	GPIO_Output	LED
+45	PE14	GPIO_Output	LED
+46	PE15	GPIO_Output	LED
+47	PB10	GPIO_Output	I2C
+48	PB11	GPIO_Output	I2C
+68	PA9	USART1_TX	
+69	PA10	USART1_RX	
+72	PA13	SYS_JTMS-SWDIO	
+76	PA14	SYS_JTCK-SWCLK	
+95	PB8	GPIO_Output	OLED
+96	PB9	GPIO_Output	OLED
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC3	IN13	ADC3_IN13	PC3
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC14-OSC32_IN	RCC_OSC32_IN	
+9	PC15-OSC32_OUT	RCC_OSC32_OUT	
+18	PC3	ADC3_IN13	
+33	PC4	GPIO_Output	
+34	PC5	GPIO_Input	
+36	PB1	GPIO_EXTI1	cesu
+37	PB2	GPIO_Input	KEY
+38	PE7	GPIO_Input	KEY
+39	PE8	GPIO_Input	KEY
+40	PE9	GPIO_Input	KEY
+41	PE10	GPIO_Input	KEY
+42	PE11	GPIO_Output	LA_BA
+43	PE12	GPIO_Output	LED
+44	PE13	GPIO_Output	LED
+45	PE14	GPIO_Output	LED
+46	PE15	GPIO_Output	LED
+47	PB10	GPIO_Output	I2C
+48	PB11	GPIO_Output	I2C
+68	PA9	USART1_TX	
+69	PA10	USART1_RX	
+72	PA13	SYS_JTMS-SWDIO	
+76	PA14	SYS_JTCK-SWCLK	
+95	PB8	GPIO_Output	OLED
+96	PB9	GPIO_Output	OLED
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Hal_USART
+Project Folder : C:\Users\26447\Desktop\something useful\HAL_STM32\Hal_USART
+Toolchain / IDE : MDK-ARM V5.32
+Firmware Package Name and Version : STM32Cube FW_F4 V1.27.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

@@ -1,0 +1,49 @@
+# ============================================================================
+# Keil MDK 构建输出
+# ============================================================================
+# 每次编译都会重写，73 MB，提交进来只会让 diff 全是噪声。
+MDK-ARM/Hal_USART/
+MDK-ARM/DebugConfig/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+# Keil 生成的目标文件与中间产物
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.lnp
+*.dep
+*.iex
+*.sct
+*.htm
+*.build_log.htm
+*.scvd
+
+# Keil 的 GUI 布局文件，文件名带 Windows 用户名，且纯属本机偏好
+*.uvguix.*
+
+# ============================================================================
+# CMSIS 里未被本工程引用的可选组件（省约 85 MB）
+# ============================================================================
+# Keil 工程只引用 Drivers/CMSIS/Include 和 Drivers/CMSIS/Device/ST/STM32F4xx/Include，
+# 下面这些预编译数学库、DSP 示例、神经网络库都用不到。
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/docs/
+Drivers/CMSIS/Core_A/
+
+# ============================================================================
+# 系统垃圾
+# ============================================================================
+Thumbs.db
+desktop.ini
+.DS_Store
